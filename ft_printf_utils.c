@@ -59,7 +59,7 @@ int	ft_putnbr_unsigned(unsigned int nbr, unsigned int base, int uppercase)
 	return (i);
 }
 
-int	ft_putnbr_pointer(unsigned long nbr)
+int	ft_putnbr_pointer(unsigned long long nbr)
 {
 	int	i;
 
