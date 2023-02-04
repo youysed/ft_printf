@@ -64,6 +64,8 @@ int	ft_putnbr_pointer(unsigned long nbr)
 	int	i;
 
 	i = 0;
+	if (nbr == 0)
+		return(ft_putstr("(nil)"));
 	if (nbr >= 16)
 		i += ft_putnbr_pointer(nbr / 16);
 	else
